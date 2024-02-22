@@ -945,9 +945,9 @@ subscribe-input::placeholder {
 }
 
 .is-open {
-  opacity: 1;
+  /* opacity: 1;
   visibility: visible;
-  pointer-events: auto;
+  pointer-events: auto; */
 }
 
 .modal {

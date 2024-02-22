@@ -60,6 +60,12 @@ img {
   overflow: hidden;
 }
 
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -936,18 +942,12 @@ subscribe-input::placeholder {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   /* ==Visibility== */
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
 }
 
 .modal {

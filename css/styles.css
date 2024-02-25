@@ -741,7 +741,7 @@ img {
   }
 }
 
-/* ===== FOOTER ===== */
+/* ==========      FOOTER      =========== */
 
 .footer {
   background: #2e2f42;
@@ -907,9 +907,7 @@ subscribe-input::placeholder {
 
 @media screen and (min-width: 1158px) {
   .footer-container {
-    padding-top: 100px;
     flex-wrap: nowrap;
-    padding-bottom: 100px;
     padding-left: 15px;
     gap: 0;
   }
